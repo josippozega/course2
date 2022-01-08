@@ -41,7 +41,7 @@ def main():
         search_term = st.text_input("Traži")
         num_of_rec = st-sidebar_input("Number", 4, 30, 7)
         if st.button("Preporuke"):
-            if search_term in not None:
+            if search_term is not None:
                 pass
 
     else:
